@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bella Napoli | Pizzería Italiana</title>
+    <meta name="description" content="Disfruta deliciosas pizzas, entradas, bebidas y postres en Bella Napoli, Canalete, Córdoba.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="encabezado">
+    <a href="#inicio" class="logo">
+        <span class="logo-icono">🍕</span>
+        <span>Bella <strong>Napoli</strong><small>PIZZERÍA ITALIANA</small></span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">☰</button>
+
+    <nav id="navegacion">
+        <a href="#inicio">Inicio</a>
+        <a href="#menu">Menú</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#contacto">Contacto</a>
+        <a class="boton-nav" href="https://wa.me/573505262416" target="_blank" rel="noopener">Pedir ahora ↗</a>
+    </nav>
+</header>
+
+<main>
+    <section class="hero" id="inicio">
+        <div class="hero-contenido">
+            <span class="etiqueta">🇮🇹 TRADICIÓN Y SABOR ITALIANO</span>
+            <h1>El sabor que<br>enamora está en<br><span>Bella Napoli.</span></h1>
+            <p>Momentos especiales, ingredientes deliciosos y el auténtico placer de compartir una buena pizza.</p>
+            <div class="hero-botones">
+                <a href="#menu" class="boton boton-rojo">Explorar menú ↗</a>
+                <a href="https://wa.me/573505262416" target="_blank" rel="noopener" class="boton boton-claro">🍕 Pedir por WhatsApp</a>
+            </div>
+            <div class="hero-datos">
+                <div><strong>🍕</strong><span>Hecho con amor</span></div>
+                <div><strong>🧀</strong><span>Ingredientes deliciosos</span></div>
+                <div><strong>❤️</strong><span>Momentos para compartir</span></div>
+            </div>
+        </div>
+        <div class="hero-foto">
+            <img src="https://images.unsplash.com/photo-1579751626657-72bc17010498?auto=format&fit=crop&w=1100&q=85" alt="Pizza artesanal recién horneada">
+            <div class="sello">FATTO CON<br><strong>AMORE</strong> ❤️</div>
+        </div>
+    </section>
+
+    <section class="franja">
+        <span>🍅 Ingredientes frescos</span>
+        <span>✦ Sabor inolvidable</span>
+        <span>🧀 Queso delicioso</span>
+        <span>🍕 Pasión por la pizza</span>
+    </section>
+
+    <section class="seccion menu-seccion" id="menu">
+        <div class="encabezado-seccion">
+            <span class="etiqueta">NUESTRO MENÚ</span>
+            <h2>Una delicia en <span>cada bocado</span></h2>
+            <p>Descubre tus favoritos y disfruta el sabor de Bella Napoli.</p>
+        </div>
+
+        <div class="filtros" id="filtros">
+            <button class="filtro activo" data-categoria="Todas">🍽️ Todo</button>
+            <button class="filtro" data-categoria="Pizzas">🍕 Pizzas</button>
+            <button class="filtro" data-categoria="Entradas">🥖 Entradas</button>
+            <button class="filtro" data-categoria="Bebidas">🥤 Bebidas</button>
+            <button class="filtro" data-categoria="Postres">🍰 Postres</button>
+        </div>
+
+        <div class="productos" id="productos"></div>
+
+        <p class="nota-menu">Los precios y la disponibilidad pueden variar. Consulta por WhatsApp antes de hacer tu pedido.</p>
+    </section>
+
+    <section class="especial">
+        <div class="especial-foto">
+            <img src="https://images.unsplash.com/photo-1571407970349-bc81e7e96d47?auto=format&fit=crop&w=1000&q=85" alt="Pizza italiana con queso y tomate">
+        </div>
+        <div class="especial-texto">
+            <span class="etiqueta">HECHA PARA COMPARTIR</span>
+            <h2>Una pizza, mil razones para sonreír.</h2>
+            <p>Reúne a tu familia, comparte con tus amigos y convierte cualquier día en una ocasión especial con el sabor de Bella Napoli.</p>
+            <a href="https://wa.me/573505262416" target="_blank" rel="noopener" class="boton boton-rojo">Quiero pedir la mía ↗</a>
+        </div>
+    </section>
+
+    <section class="seccion nosotros" id="nosotros">
+        <div class="encabezado-seccion">
+            <span class="etiqueta">CONÓCENOS</span>
+            <h2>La historia detrás de <span>Bella Napoli</span></h2>
+        </div>
+
+        <div class="nosotros-contenido">
+            <div class="nosotros-foto">
+                <img src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?auto=format&fit=crop&w=900&q=85" alt="Preparación de alimentos en una cocina">
+            </div>
+            <div class="nosotros-texto">
+                <h3>Más que una pizzería, un lugar para compartir.</h3>
+                <p>Bella Napoli nace de la pasión por la cocina y del deseo de reunir a las personas alrededor de una mesa. Nos inspira la tradición italiana, el aroma de una pizza recién horneada y la alegría de compartir algo delicioso.</p>
+                <p>Queremos ofrecerte una experiencia agradable, con sabores que disfrutes y momentos que quieras repetir. Cada visita y cada pedido son una oportunidad para compartir nuestra pasión por la buena comida.</p>
+                <div class="valores">
+                    <div><span>❤️</span><strong>Pasión</strong><small>Cocinamos con cariño.</small></div>
+                    <div><span>🍅</span><strong>Sabor</strong><small>El gusto de compartir.</small></div>
+                    <div><span>😊</span><strong>Atención</strong><small>Queremos verte feliz.</small></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pedido-banner">
+        <div>
+            <span class="etiqueta etiqueta-clara">¿QUÉ SE TE ANTOJA HOY?</span>
+            <h2>Tu próxima pizza favorita<br>está a un mensaje de distancia.</h2>
+            <p>Haz tu pedido de forma fácil y rápida.</p>
+        </div>
+        <a href="https://wa.me/573505262416" target="_blank" rel="noopener" class="boton boton-claro">💬 Pedir por WhatsApp ↗</a>
+    </section>
+
+    <section class="seccion contacto" id="contacto">
+        <div class="encabezado-seccion">
+            <span class="etiqueta">ESTAMOS PARA ATENDERTE</span>
+            <h2>Visítanos en <span>Bella Napoli</span></h2>
+            <p>¡Será un gusto compartir contigo!</p>
+        </div>
+
+        <div class="contacto-grid">
+            <div class="datos-contacto">
+                <div class="dato">
+                    <span class="dato-icono">📍</span>
+                    <div><h3>Ubicación</h3><p>Canalete, Córdoba, Colombia.</p><small>Consulta por WhatsApp cómo llegar.</small></div>
+                </div>
+                <div class="dato">
+                    <span class="dato-icono">📱</span>
+                    <div><h3>Teléfono y pedidos</h3><p>+57 350 526 2416</p><a href="https://wa.me/573505262416" target="_blank" rel="noopener">Escríbenos por WhatsApp ↗</a></div>
+                </div>
+                <div class="dato">
+                    <span class="dato-icono">🕒</span>
+                    <div><h3>Horario de atención</h3><p>Consulta nuestros horarios actualizados.</p><small>Confirma la disponibilidad antes de visitarnos.</small></div>
+                </div>
+                <div class="dato">
+                    <span class="dato-icono">🍕</span>
+                    <div><h3>¿Se te antojó algo?</h3><p>Pregunta por el menú y los precios.</p></div>
+                </div>
+                <a class="boton boton-rojo boton-ancho" href="https://wa.me/573505262416?text=Hola%20Bella%20Napoli%2C%20quiero%20conocer%20el%20men%C3%BA." target="_blank" rel="noopener">Contactar ahora ↗</a>
+            </div>
+
+            <div class="mapa">
+                <iframe
+                    src="https://maps.google.com/maps?q=Canalete%2C%20C%C3%B3rdoba%2C%20Colombia&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                    title="Mapa de Canalete, Córdoba"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+                <div class="mapa-pie"><span>📍</span><div><strong>Bella Napoli</strong><p>Canalete, Córdoba, Colombia</p></div></div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <a href="#inicio" class="logo logo-footer">
+        <span class="logo-icono">🍕</span>
+        <span>Bella <strong>Napoli</strong><small>PIZZERÍA ITALIANA</small></span>
+    </a>
+    <p>Hecho con ❤️ para los amantes de la buena pizza.</p>
+    <div class="footer-enlaces">
+        <a href="#inicio">Inicio</a>
+        <a href="#menu">Menú</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#contacto">Contacto</a>
+    </div>
+    <small>© <span id="anio"></span> Bella Napoli. Todos los derechos reservados.</small>
+</footer>
+
+<a class="whatsapp-flotante" href="https://wa.me/573505262416" target="_blank" rel="noopener" aria-label="Pedir por WhatsApp">☏</a>
+
+<script src="script.js"></script>
+</body>
+</html>
